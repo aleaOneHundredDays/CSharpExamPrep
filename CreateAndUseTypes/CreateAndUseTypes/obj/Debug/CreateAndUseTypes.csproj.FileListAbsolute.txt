@@ -1,0 +1,5 @@
+C:\Users\alea\source\repos\CreateAndUseTypes\CreateAndUseTypes\bin\Debug\CreateAndUseTypes.exe.config
+C:\Users\alea\source\repos\CreateAndUseTypes\CreateAndUseTypes\bin\Debug\CreateAndUseTypes.exe
+C:\Users\alea\source\repos\CreateAndUseTypes\CreateAndUseTypes\bin\Debug\CreateAndUseTypes.pdb
+C:\Users\alea\source\repos\CreateAndUseTypes\CreateAndUseTypes\obj\Debug\CreateAndUseTypes.exe
+C:\Users\alea\source\repos\CreateAndUseTypes\CreateAndUseTypes\obj\Debug\CreateAndUseTypes.pdb
