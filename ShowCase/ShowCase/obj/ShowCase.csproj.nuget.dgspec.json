@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alea\\source\\repos\\ShowCase\\ShowCase\\ShowCase.csproj": {}
+    "C:\\_Angela\\_GIT_CSharp\\ShowCase\\ShowCase\\ShowCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alea\\source\\repos\\ShowCase\\ShowCase\\ShowCase.csproj": {
+    "C:\\_Angela\\_GIT_CSharp\\ShowCase\\ShowCase\\ShowCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alea\\source\\repos\\ShowCase\\ShowCase\\ShowCase.csproj",
+        "projectUniqueName": "C:\\_Angela\\_GIT_CSharp\\ShowCase\\ShowCase\\ShowCase.csproj",
         "projectName": "ShowCase",
-        "projectPath": "C:\\Users\\alea\\source\\repos\\ShowCase\\ShowCase\\ShowCase.csproj",
+        "projectPath": "C:\\_Angela\\_GIT_CSharp\\ShowCase\\ShowCase\\ShowCase.csproj",
         "packagesPath": "C:\\Users\\alea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alea\\source\\repos\\ShowCase\\ShowCase\\obj\\",
+        "outputPath": "C:\\_Angela\\_GIT_CSharp\\ShowCase\\ShowCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
