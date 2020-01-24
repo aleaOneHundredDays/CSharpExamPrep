@@ -8,4 +8,3 @@ C:\_Angela\_GIT_CSharp\CreateAndUseTypes\CreateAndUseTypes\bin\Debug\CreateAndUs
 C:\_Angela\_GIT_CSharp\CreateAndUseTypes\CreateAndUseTypes\bin\Debug\CreateAndUseTypes.pdb
 C:\_Angela\_GIT_CSharp\CreateAndUseTypes\CreateAndUseTypes\obj\Debug\CreateAndUseTypes.exe
 C:\_Angela\_GIT_CSharp\CreateAndUseTypes\CreateAndUseTypes\obj\Debug\CreateAndUseTypes.pdb
-C:\_Angela\_GIT_CSharp\CreateAndUseTypes\CreateAndUseTypes\obj\Debug\CreateAndUseTypes.csprojAssemblyReference.cache

@@ -9,12 +9,14 @@ using System.Windows.Forms;
 
 namespace CreateAndUseTypes
 {
+
+    
     class Program
     {
-        
+        private protected int ddd;
 
 
-            struct Point
+        struct Point
          {
             public int x, y;
             public Point(int x, int y)
@@ -162,11 +164,97 @@ namespace CreateAndUseTypes
             //// Sum: 30
             ///
 
-            double b = 12.45;
+
+            // coalescing operator
+            Int32? ia = null;
+            Int32 ja = ia ?? 100;
+
+            string mightBeNull = null;
+
+            string mightNOTBeNull = mightBeNull ?? "ITS NULL";
+
+
+
+            string string3 = System.String.Empty;
+            string string4 = string3 ?? "ITS NULL";  // string4 = "" as string3 not null
+
+
+            Console.WriteLine("The value of the variable j is: " + ja);
+
+            // casting nullable to non nullable
+            Int32? i1 = null;  /// OK TO BE NULL HERE
+            Int32 j1 = (Int32)i1;  // BUT- get an error here because i1 IS NULL AND j1 is NOT nullable
+
+            int? nullable = null;
+            if (nullable == null)
+                Console.WriteLine("It's a null!");
+            if (!nullable.HasValue)
+                Console.WriteLine("It's a null!");
+
+          
+
+
+            int? b = null;
+            if (b.HasValue)
+            {
+                Console.WriteLine($"b is {b.Value}");
+            }
+            else
+            {
+                Console.WriteLine("b does not have a value");
+            }
+
+            double? pi = 3.14;
+            char? letter = 'a';
+
+            int m2 = 10;
+            int? m = m2;
+
+            bool? flag = null;
+
+            // An array of a nullable type:
+            int?[] arr = new int?[10];
+
+            double? pi2;
+
+           // Console.WriteLine(pi2);  // does not compile because pi2 is null
+
+
+            decimal myDecimal = new decimal();
+            Type t = myDecimal.GetType();
+
+            if (t.IsValueType)
+            {
+                Console.WriteLine("its a value type");
+            }
+
+            //bool flag = false;
+            //NumEnum testEnum = NumEnum.One;
+            //// Get the type of myTestEnum.
+            //Type t = testEnum.GetType();
+            //// Get the IsValueType property of the myTestEnum variable.
+            //flag = t.IsValueType;
+            //Console.WriteLine("{0} is a value type: {1}", t.FullName, flag);
+
+
+
+
+
+
+            // NULL STRING DOES NOT COMPILE
+            //string nullstring_1;
+
+            //string nullstring_2;
+
+            //nullstring_2 += nullstring_1;
+
+            //Console.WriteLine(nullstring_2);
+
+            double b2 = 12.45;
             int x = 10;
-            b = b + x;
-            Console.WriteLine(b);
-            float floaty = (float)b;
+            b2 = b2 + x;
+            Console.WriteLine(b2);
+            float floaty = (float)b2;
             Console.WriteLine(floaty);
             int intTest = (int)floaty;
             Console.WriteLine(intTest);
