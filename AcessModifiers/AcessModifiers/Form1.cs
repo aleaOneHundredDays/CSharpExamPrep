@@ -16,5 +16,15 @@ namespace AccessModifiers
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ClassA a = new ClassA();
+            ClassB b = new ClassB(4);
+        
+
+            
+            
+        }
     }
 }
